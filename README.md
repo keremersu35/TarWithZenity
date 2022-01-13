@@ -26,44 +26,22 @@ Dosya sıkıştırma ve ayıklama işlemleri yapılabilmektedir.
 
 # Ekran Görüntüleri
 
-## Ana Ekran
-<img src="images/anaekran.png" >
+<img src="EkranGoruntuleri/ss1.png" >
 
-- İlk olarak wget komutunu hangi parametre ile calistirmak istediginizi sectiginiz bir secim ekranı geliyor. Buradan istediginiz durumu seçip OK'a basarak devam ediyoruz.
+Dosya sıkıştırma ve dosya ayıklama işlemlerinden biri seçilir.
 
-## Devam/Cikis Yap
-<img src="images/devam.png" >
+<img src="EkranGoruntuleri/ss2.png" >
 
-- Daha sonrasında kullanıcıya devam edip etmek istemediği sorulur eğer devam seçeneği seçilirse kullanıcı yine seçim ekranına yönlendirilir.
+Kullanıcı ayıklama işlemini seçtiğinde böyle bir ekranla karşılaşır ve ayıklamak istenen dosya seçilir.
 
+<img src="EkranGoruntuleri/ss3.png" >
 
-## -i Parametresi
-<img src="images/iparametresi.png" > <img src="images/linkler.png" >
+Ayıklama işlemi yapıldıktan sonra kullanıcı bilgilendirilir.
 
-- -i parametresi seçildiğinde ise kullanıcıdan bir dosya seçmesi istenir. 
-- -i parametresinde kullanılmak için oluşturulan linkler.txt isimli dosya. Bu dosya file selection ile seçildikten sonra bütün linkler indirilir(Aynı dosya dizinine). Ve sonrasında kullanıcıya info ekranı gösterilir.
+<img src="EkranGoruntuleri/ss4.png" >
 
-## -O Parametresi
-<img src="images/oparametresi.png" > <img src="images/yeniisim.png" >
+Kullanıcı sıkıştırma işlemini seçtiğinde böyle bir ekranla karşılaşır ve sıkıştırılmak istenen dosya seçilir.
 
-- -O parametresi girilen linkteki dosyayı farklı bir isimle kaydetmeye yarar. Kullanıcıdan bir link istendikten sonrasında kaydedileceği isimde istenir. Dosya yeni ismiyle aynı dizine indirilir.
+<img src="EkranGoruntuleri/ss5.png" >
 
-## -P Parametresi
-<img src="images/pparametre.png" > <img src="images/yenidizin.png" >
-
-- -P parametresi girilen linkteki dosyayı farklı bir dizine kaydetmeye yarar. Kullanıcıdan bir link istendikten sonrasında kaydedileceği yeni dizinde istenir. Secil yapildiktan sonra dosya yeni dizine indirilir.
-
-## -r -A Parametresi
-<img src="images/raparametresi.png" > <img src="images/tur.png" >
-
-- -r -A parametresi girilen linkteki sadece istenilen uzantili dosyaları indiren bir komuttur. Kullanıcıdan bir link istendikten sonrasında filtrelemek istedikleri uzantı sorulur sonrasında ise sadece istenen uzantidaki veriler indirilir.
-
-## -b Parametresi/ --no-check-certificate Parametresi
-<img src="images/bparametresi.png" > <img src="images/nocheck.png" >
-
-- -b parametresi girilen linkteki dosyayı arka planda indirmeye yarar. 
-- --no-check-certificate Geçersiz bir SSL sertifikasına sahip bir ana bilgisayardan HTTPS üzerinden bir dosya indirmeye yarar
-
-<img src="images/basarisiz.png" >
-
-- Gerekli alanlardan boş bırakılan olursa kullanıcıya warning ekranı gösterilir.
+Sıkıştırma işlemi yapıldıktan sonra kullanıcı bilgilendirilir.
